@@ -1,12 +1,15 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Times New Roman', Times, serif
+	font-family: 'Times New Roman', Times, serif;
+	border: 30bpx;
 }
+
 h2 {
 	float: left;
 	color:black;
 	font-size: 24px;
-	background-color: darkseagreen
+	background-color: darkseagreen;
+	padding: 10px;
 }
 .topnav {
 	background-color:white;
@@ -23,25 +26,33 @@ h2 {
 body {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    background-color: burlywood
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(243, 241, 239);
     margin: auto;
 	width: 960px;
 }
-
 img {
 	float: left;
+	margin-right: 10px;
+}
+.container_1 {
+	width: 700px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	background-color: white;
+	margin-top: 20px;
 }
 
+}
 .About-Me {
 	float: left;
 }
-
-
 section {
     float: left;
-    background-color: grey
     width: 100%;
-    color: grey;
+	color: grey;
+	border: 10px;
+	
    
 }
