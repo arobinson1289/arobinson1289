@@ -4,6 +4,25 @@
 	border: 30bpx;
 }
 
+.nav-bar	{
+		height: 60px;
+		background-color: bisque;
+		float: left;
+}
+
+a {
+	float: right;
+}
+
+h1	{
+	margin-left: 130px;
+	align-content: center;
+	background-color: darkolivegreen;
+	width: auto;
+	height: 60px;
+	display: inline;
+}
+
 h2 {
 	float: left;
 	color:black;
@@ -11,17 +30,6 @@ h2 {
 	background-color: darkseagreen;
 	padding: 10px;
 }
-.topnav {
-	background-color:white;
-	overflow: hidden;
-  }
-  .topnav a {
-	float: right;
-	color: black;
-	text-align: center;
-	padding: 20px 24px;
-	font-size: 17px;
-  }
 
 body {
     width: 100%;
