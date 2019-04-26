@@ -1,66 +1,32 @@
-* {
-	box-sizing: border-box;
-	font-family: 'Times New Roman', Times, serif;
-	border: 30bpx;
-}
+body html {
+		height: 100%;
+	  }
+	  
+	  .bg { 
+		/* The image used */
+		background-image: url("/assets/images/palms.jpeg");
+	  
+		/* Full height */
+		height: 100%; 
+	  
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	  }
 
-.nav-bar	{
-		height: 60px;
-		background-color: bisque;
-		float: left;
+#profileImage {
+	height: 300px;
+	width: 300px;
 }
-
-a {
-	float: right;
-}
-
-h1	{
-	margin-left: 130px;
-	align-content: center;
-	background-color: darkolivegreen;
-	width: auto;
-	height: 60px;
-	display: inline;
-}
-
-h2 {
-	float: left;
-	color:black;
-	font-size: 24px;
-	background-color: darkseagreen;
-	padding: 10px;
-}
-
-body {
-    width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(243, 241, 239);
-    margin: auto;
-	width: 960px;
-}
-img {
-	float: left;
-	margin-right: 10px;
-}
-.container_1 {
-	width: 700px;
-	height: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 30px;
-	background-color: white;
-	margin-top: 20px;
-}
-
-}
-.About-Me {
+.contentCentered {
+		position: fixed;
+		top: 20%;
+	  }
+.mainHeading {
 	float: left;
 }
-section {
-    float: left;
-    width: 100%;
-	color: grey;
-	border: 10px;
-	
-   
+
+.aboutMeStyling {
+	margin-top: 20%;
 }
